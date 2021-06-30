@@ -5,7 +5,7 @@ import Kontakt from './components/Kontakt/Kontakt'
 import Info from './components/Info/Info'
 import Stats from './components/Stats/Stats'
 import Footer from './components/Footer/Footer'
-import Build from './components/inBuild/Build'
+import Ibox from './components/inBuild/Build'
 import './App.css'
 import { Link, animateScroll as scroll } from "react-scroll";
 import {
@@ -15,9 +15,10 @@ import {
 } from "react-router-dom";
 
 function App() {
+
   return (
     <div className="App">
-        {/* <Build/> */}
+        <Ibox infoM=""/>
         <Nav/>
         <Home />
         <Kontakt/>
