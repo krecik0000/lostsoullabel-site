@@ -17,7 +17,7 @@ import {
 function App() {
   return (
     <div className="App">
-        <Build/>
+        {/* <Build/> */}
         <Nav/>
         <Home />
         <Kontakt/>
