@@ -1,0 +1,34 @@
+.build{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    z-index: 999;
+    background-color: var(--BuTh);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bText{
+    padding: 10%;
+    background-color: var(--hts);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--mfontColor);
+    border-radius: 1rem;
+    text-align: center;
+    background: var(--BuGr);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

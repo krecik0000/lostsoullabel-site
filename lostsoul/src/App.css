@@ -5,6 +5,8 @@
     --mfontColor: #fff; /* kolor czcionki głównej */
     --hts: #000; /* kolor cienia czcionki w sekcji home */
     --EBgC: rgba(0,0,0,0.6); /* kolor tła elementów na stronie */
+    --BuTh: rgba(0,0,0,0.8); /* kolor tła elementu przerwy technicznej */
+    --BuGr: linear-gradient(-45deg, #ee52ee, #8b16a8, #235bd5, #345ac2); /* gradient przerwy technicznej */
     --InputBC: rgb(168, 2, 240); /* kolor bordera inputa kontaktowego */
     --InputBCH: rgb(212, 0, 255); /* kolor bordera inputa kontaktowego hoverowanego */
 
