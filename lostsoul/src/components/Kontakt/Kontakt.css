@@ -1,0 +1,72 @@
+@media (max-width: 600px){
+    .ContactForm{
+        width: 100% !important;
+    }
+    form{
+        width: 90% !important;
+    }
+}
+.ContactForm{
+    width: 64%;
+    height: 70vh;
+    background: var(--EBgC);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.formTitle{
+    color: var(--mfontColor);
+    font-weight: 400;
+    margin-bottom: 2vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+label{
+    color: var(--mfontColor);
+    align-self: flex-start;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.nameInput, .emailInput, .textInput{
+    width: 100%;
+    height: 5vh;
+    border: 0;
+    margin-bottom: 1vh;
+    text-align: center;
+    resize: none;
+    background: none;
+    border-bottom: 1px solid var(--InputBC);
+    border-left: 1px solid var(--InputBC);
+    outline: none;
+    color: var(--mfontColor);
+    font-size: 120%;
+}
+.textInput{
+    height: 10vh;
+}
+.nameInput:focus, .emailInput:focus, .textInput:focus{
+    border-color: var(--InputBCH);
+}
+input[type=submit]{
+    width: 100%;
+    height: 5vh;
+    border: 0;
+    margin-bottom: 1vh;
+    text-align: center;
+    background-color: var(--InputBC);
+    color: var(--mfontColor);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: var(--InputBCH);
+}

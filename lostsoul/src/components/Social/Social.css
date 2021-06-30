@@ -1,0 +1,77 @@
+@media (max-width: 600px){
+    .Social{
+        width: 100% !important;
+    }
+    .sBox{
+        width: 100% !important;
+    }
+}
+.Social{
+    width: 80%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sTitle{
+    text-align: center;
+}
+
+/* Sociale */
+.sBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 10vh;
+    margin-top: 2vh;
+    background: var(--EBgC);
+    border-radius: 1rem;
+    position: relative;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    color: var(--mfontColor);
+    text-decoration: none;
+}
+.smallTitle{
+    font-size: 50%;
+}
+
+.sBox:first-of-type:hover{
+    background-color: var(--YtBg) !important;
+}
+.sBox:nth-child(3):hover{
+    background-color: var(--ScBg) !important;
+}
+.sBox:nth-child(4):hover{
+    background-color: var(--IgBg) !important;
+}
+.sBox:nth-child(5):hover{
+    background-color: var(--DcBg) !important;
+}
+.sBox:last-child:hover{
+    background-color: var(--FbBg) !important;
+}
+
+.sBox:hover{
+    animation: blinks .2s;
+}
+.arrow{
+    position: absolute;
+    right: 10px;
+    font-size: 200%;
+}
+@keyframes blinks{
+    0%{
+        transform: rotateY(0deg); 
+    }
+    50%{
+        transform: rotateY(10deg);
+    }
+    100%{
+        transform: rotateY(0deg); 
+    }
+}

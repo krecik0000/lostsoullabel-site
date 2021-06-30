@@ -1,0 +1,15 @@
+.InfoBox{
+    width: 64%;
+    height: 50vh;
+    background-color: var(--EBgC);
+    margin-bottom: 5vh;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px 0px 0px;
+}
+.InfoTitle{
+    color: var(--mfontColor);
+    font-weight: 400;
+}

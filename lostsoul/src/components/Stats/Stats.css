@@ -1,0 +1,7 @@
+.StatsBox{
+    width: 64%;
+    height: 70vh;
+    background-color: var(--EBgC);
+    margin-top: 5vh;
+    border-radius: 1rem;
+}

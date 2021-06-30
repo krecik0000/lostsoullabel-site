@@ -1,0 +1,23 @@
+:root{
+    --BgC: #ff14f3; /* kolor tła strony */
+    --nBg: rgba(111, 8, 155, 0.7); /* kolor paska nawigacji */
+    --nBga: rgba(111, 8, 155, 0.0); /* kolor paska nawigacji alternatywnej */
+    --mfontColor: #fff; /* kolor czcionki głównej */
+    --hts: #000; /* kolor cienia czcionki w sekcji home */
+    --EBgC: rgba(0,0,0,0.6); /* kolor tła elementów na stronie */
+    --InputBC: rgb(168, 2, 240); /* kolor bordera inputa kontaktowego */
+    --InputBCH: rgb(212, 0, 255); /* kolor bordera inputa kontaktowego hoverowanego */
+
+    --YtBg: rgba(255, 0, 0, 0.6); /* kolor elementu social YouTube */
+    --ScBg: rgba(255, 136, 0, 0.6); /* kolor elementu social SoundCloud */
+    --IgBg: rgba(255, 0, 179, 0.6); /* kolor elementu social Instagram */
+    --DcBg: rgba(98, 0, 255, 0.6);
+    --FbBg: rgba(47, 0, 255, 0.6); /* kolor elementu social Facebook */
+
+} 
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

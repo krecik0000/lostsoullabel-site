@@ -1,0 +1,26 @@
+.mainLogo{
+    width: 100%;
+    height: 90vh;  
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--mfontColor);
+    letter-spacing: 5px;
+    font-size: 160%;
+}
+.Title{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../assets/watermark.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-shadow: 4px 4px 5px var(--hts);
+}
